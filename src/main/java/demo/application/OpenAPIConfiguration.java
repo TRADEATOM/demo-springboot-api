@@ -20,8 +20,11 @@ public class OpenAPIConfiguration {
         server.setDescription("Development");
 
         Contact myContact = new Contact();
-        myContact.setName("Luciano Gobi");
-        myContact.setEmail("gobi.luciano@google.com");
+        //myContact.setName("Kaushal");
+        //myContact.setEmail("gobi.luciano@google.com");
+
+        myContact.setName("Kaushal");
+        myContact.setEmail("kaushalvsheth@gmail.com");
 
         Info information = new Info()
                 .title("Demo Application")
